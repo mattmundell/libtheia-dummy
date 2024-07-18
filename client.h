@@ -43,6 +43,7 @@ typedef struct {
 
 typedef struct {
   theia_message_t *message;
+  char *license;
 } theia_modify_license_cmd_t;
     
 typedef struct {
